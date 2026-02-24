@@ -1,9 +1,9 @@
 <!-- README -->
 <div align="center">
 
-<h1>ファル</h1>
+<h1>ファル / Fal</h1>
 
-<img src="static/avatar.png" width="80" height="80" style="border-radius: 50%; margin-top: -20px; border: 2px solid #707070ff;" alt="fal / ファル" />
+<img src="static/avatar.png" width="80" height="80" style="border-radius: 50%; margin-top: -20px; border: 2px solid #707070ff;" alt="ファル / Fal" />
 
 <br />
 
@@ -13,22 +13,15 @@
 
 ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-<table border="0" cellspacing="10" cellpadding="0"><tr>
-<td align="center">
-
 <a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=fal-114514&theme=tokyonight&hide_border=true&locale=ja&date_format=%5BY.%5Dn.j" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=fal-114514&theme=tokyonight&hide_border=true&locale=ja&date_format=%5BY.%5Dn.j&width=300" alt="GitHub Streak" />
 </a>
 
-</td>
-<td align="center">
+<br />
 
 <a href="https://discord.com/users/1353729242906497084">
   <img src="https://lanyard.cnrad.dev/api/1353729242906497084?showDisplayName=true&bg=1a1b27&theme=dark" />
 </a>
-
-</td>
-</tr></table>
 
 </div>
 
@@ -36,7 +29,7 @@
 
 <!-- Source -->
 <details>
-<summary>View Svelte Source</summary>
+<summary>View Source</summary>
 
 ```svelte
 <script lang="ts">
@@ -46,7 +39,7 @@
   let isMounted = false;
 
   const profile = {
-    name: "ファル",
+    name: "ファル / Fal",
     bio: "技術ない",
     avatar: "/avatar.png",
     links: [
@@ -63,7 +56,7 @@
 </script>
 
 <svelte:head>
-  <title>{profile.name} | Profile</title>
+  <title>{profile.name}/title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
@@ -128,9 +121,9 @@
           <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
         </div>
 
-        <div class="flex justify-center items-start gap-4">
+        <div class="flex flex-col items-center gap-4">
           <a href="https://git.io/streak-stats">
-            <img src="https://github-readme-streak-stats.herokuapp.com?user=fal-114514&theme=tokyonight&hide_border=true&locale=ja&date_format=%5BY.%5Dn.j" alt="GitHub Streak" />
+            <img src="https://github-readme-streak-stats.herokuapp.com?user=fal-114514&theme=tokyonight&hide_border=true&locale=ja&date_format=%5BY.%5Dn.j&width=300" alt="GitHub Streak" />
           </a>
 
           {#each profile.links as link}
