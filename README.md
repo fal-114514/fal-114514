@@ -36,7 +36,7 @@
 
 <!-- Source -->
 <details>
-<summary>View Svelte Source</summary>
+<summary>View Source</summary>
 
 ```svelte
 <script lang="ts">
